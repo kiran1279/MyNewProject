@@ -4550,6 +4550,11 @@ react-native-gesture-handler@^2.17.1, "react-native-gesture-handler@>= 1.0.0":
     invariant "^2.2.4"
     prop-types "^15.7.2"
 
+react-native-permissions@^4.1.5:
+  version "4.1.5"
+  resolved "https://registry.npmjs.org/react-native-permissions/-/react-native-permissions-4.1.5.tgz"
+  integrity sha512-r6VMRacASmtRHS+GZ+5HQCp9p9kiE+UU9magHOZCXZLTJitdTuVHWZRrb4v4oqZGU+zAp3mZhTQftuMMv+WLUg==
+
 react-native-push-notification@^8.1.1:
   version "8.1.1"
   resolved "https://registry.npmjs.org/react-native-push-notification/-/react-native-push-notification-8.1.1.tgz"
@@ -4587,7 +4592,7 @@ react-native-video@^6.4.1:
   resolved "https://registry.npmjs.org/react-native-video/-/react-native-video-6.4.1.tgz"
   integrity sha512-tbjHMd66oJEEybnhL2jpTWZN1nQa/16Jz9Tu0dkwRkLp11XgAwJdhv5CO69zegkfVnLVQvG41XSgsQZD7dmZ9A==
 
-react-native@*, react-native@>=0.33, react-native@>=0.57, react-native@>=0.58.4, react-native@>=0.60, react-native@0.74.3:
+react-native@*, react-native@>=0.33, react-native@>=0.57, react-native@>=0.58.4, react-native@>=0.60, react-native@>=0.70.0, react-native@0.74.3:
   version "0.74.3"
   dependencies:
     "@jest/create-cache-key-function" "^29.6.3"
@@ -4644,7 +4649,7 @@ react-test-renderer@18.2.0:
     react-shallow-renderer "^16.15.0"
     scheduler "^0.23.0"
 
-react@*, "react@^16.0.0 || ^17.0.0 || ^18.0.0", react@^18.2.0, react@>=16, react@>=16.6.3, react@>=16.8, react@>=17.0.0, react@18.2.0:
+react@*, "react@^16.0.0 || ^17.0.0 || ^18.0.0", react@^18.2.0, react@>=16, react@>=16.6.3, react@>=16.8, react@>=17.0.0, react@>=18.1.0, react@18.2.0:
   version "18.2.0"
   dependencies:
     loose-envify "^1.1.0"
