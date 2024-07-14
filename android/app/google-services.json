@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "975587674631",
+    "project_id": "marine-lacing-425716-h9",
+    "storage_bucket": "marine-lacing-425716-h9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975587674631:android:540a84fd21ce32eaba78a2",
+        "android_client_info": {
+          "package_name": "com.mynewproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGk1jXJ4oqnYJ_-FdckY1ZdJHjcW09-vE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
