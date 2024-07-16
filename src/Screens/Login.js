@@ -17,14 +17,8 @@ const Login = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [isPasswordVisible, setIsPasswordVisible] = useState(false);
-
     const navigation = useNavigation()
-
-
-
-
     const usernameRegex = /^[a-zA-Z0-9!@#$%^&*()_+=]{3,30}$/;
-
     function validateUsername(txt) {
         return usernameRegex.test(txt);
     }
@@ -41,7 +35,6 @@ const Login = () => {
             });
             return;
         }
-
         if (!validateUsername(username)) {
             Snackbar.show({
                 text: 'Invalid username',
@@ -65,7 +58,7 @@ const Login = () => {
 
             <Image
                 source={require('../../Assets/Images/Logo.jpg')}
-                style={{ width: 80, height: 80, borderRadius: 40, resizeMode: "contain" }}
+                style={styles.imgStyle}
             />
             <Text style={styles.title}>Login</Text>
             <TextInput
@@ -77,19 +70,7 @@ const Login = () => {
                 onChangeText={setUsername}
                 autoCapitalize="none"
             />
-            <View style={{
-                width: '100%',
-                height: 40,
-                borderColor: '#ccc',
-                borderWidth: 1,
-                borderRadius: 5,
-                padding: 8,
-                marginBottom: 16,
-                backgroundColor: '#fff',
-                justifyContent: "center"
-
-
-            }}>
+            <View style={styles.container2}>
                 <TextInput
                     style={styles.passwordStyle}
                     placeholder="Password"
@@ -121,7 +102,6 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         padding: 16,
-        // backgroundColor: '#f5f5f5',
         backgroundColor: '#ADD8E6',
     },
     title: {
@@ -156,6 +136,23 @@ const styles = StyleSheet.create({
         color: '#fff',
         fontSize: 16,
     },
+    container2: {
+        width: '100%',
+        height: 40,
+        borderColor: '#ccc',
+        borderWidth: 1,
+        borderRadius: 5,
+        padding: 8,
+        marginBottom: 16,
+        backgroundColor: '#fff',
+        justifyContent: "center"
+    },
+    imgStyle: {
+        width: 80,
+        height: 80,
+        borderRadius: 40,
+        resizeMode: "contain"
+    }
 });
 
 export default Login;

@@ -11,7 +11,7 @@ const ImageVideo = () => {
         <View>
             {liveImage ? (
                 <Image
-                    source={{ uri: 'https://images.pexels.com/photos/6968984/pexels-photo-6968984.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' }} // Replace with your image URL
+                    source={{ uri: 'https://images.pexels.com/photos/6968984/pexels-photo-6968984.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' }}
                     style={styles.media}
                 />)
                 :

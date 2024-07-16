@@ -5,7 +5,6 @@ import { useNavigation } from '@react-navigation/native'
 
 const Header = ({ width = '100%' }) => {
     const navigation = useNavigation()
-
     return (
         <View>
             <TouchableOpacity

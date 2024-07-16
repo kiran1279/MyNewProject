@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { View, Text, Image, StyleSheet, TouchableOpacity, ScrollView } from 'react-native';
-import Video from 'react-native-video';
 import ImageVideo from '../Components/ImageVideo';
 import Header from '../Components/Header';
 

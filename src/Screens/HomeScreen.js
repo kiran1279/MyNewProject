@@ -33,13 +33,11 @@ const HomeScreen = () => {
         {
             id: 4,
             title: 'Camera 4',
-            // videoUrl: 'https://videos.pexels.com/video-files/3209828/3209828-uhd_2560_1440_25fps.mp4'
         },
     ];
     const goToVideo = (item) => {
         if (item.id == tabs.length) {
             navigation.navigate("VideoScreen")
-            // return
         }
         setSelectedTab(item.id)
     }
